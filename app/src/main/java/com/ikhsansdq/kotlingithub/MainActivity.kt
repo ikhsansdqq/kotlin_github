@@ -32,8 +32,7 @@ class MainActivity : AppCompatActivity() {
             inputStream.read(buffer)
             inputStream.close()
             json = String(buffer, charset)
-        }
-        catch (ex: IOException) {
+        } catch (ex: IOException) {
             ex.printStackTrace()
             return ""
         }
@@ -71,16 +70,21 @@ class MainActivity : AppCompatActivity() {
             val userArray = obj.getJSONArray("konoha")
             for (i in 0 until userArray.length()) {
                 val userDetail = userArray.getJSONObject(i)
-                ninja_name.add(userDetail.getString("name"))
-                ninja_status.add(userDetail.getString("status"))
-                ninja_rank.add(userDetail.getString("rank"))
-                ninja_image.add(userDetail.getString("img_url"))
+                val name = userDetail.optString("name")
+
+                if (!name.isNullOrEmpty()) {
+                    ninja_name.add(name)
+                    ninja_status.add(userDetail.getString("status"))
+                    ninja_rank.add(userDetail.getString("rank"))
+                    ninja_image.add(userDetail.getString("img_url"))
+                }
+
             }
-        }
-        catch (e: JSONException) {
+        } catch (e: JSONException) {
             e.printStackTrace()
         }
-        val ninjaAdapter = NinjaAdapter(this@MainActivity, ninja_name, ninja_status, ninja_rank, ninja_image)
+        val ninjaAdapter =
+            NinjaAdapter(this@MainActivity, ninja_name, ninja_status, ninja_rank, ninja_image)
         recyclerView.adapter = ninjaAdapter
     }
 

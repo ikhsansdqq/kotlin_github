@@ -40,23 +40,6 @@
 
         </com.google.android.material.appbar.AppBarLayout>
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:contentDescription="@string/app_name"
-            android:src="@drawable/img_placeholder" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="24dp"
-            android:fontFamily="@font/inter_bold"
-            android:text="Naruto Database"
-            android:textColor="#1E2332"
-            android:textSize="16sp" />
-
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/reyclerView"
             android:layout_width="match_parent"

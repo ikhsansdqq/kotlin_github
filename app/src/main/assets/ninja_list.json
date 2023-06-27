@@ -13,6 +13,40 @@
       "status": "Alive",
       "rank": "Jonin",
       "img_url": "https://static.wikia.nocookie.net/naruto/images/a/a5/Sakura_Part_III.png/revision/latest/scale-to-width-down/300?cb=20170726100410"
+    },
+    {
+      "name": "Uchiha Sasuke",
+      "affiliation": "Konoha",
+      "status": "Alive",
+      "rank": "Genin",
+      "img_url": "https://static.wikia.nocookie.net/naruto/images/b/b7/Sasuke_Part_3.png/revision/latest/scale-to-width-down/300?cb=20190224132913"
+    },
+    {
+      "name": "Kakashi Hatake",
+      "affiliation": "Konoha",
+      "status": "Alive",
+      "rank": "Jonin (ex-Kage)",
+      "img_url": "https://static.wikia.nocookie.net/naruto/images/2/25/Kakashi_Part_III.png/revision/latest/scale-to-width-down/300?cb=20190224133235"
     }
+  ],
+  "AllClans": [
+    "Aburame",
+    "Akimichi",
+    "Chinoike",
+    "Hatake",
+    "Hyuga",
+    "Hozuki",
+    "Inuzuka",
+    "Izuno",
+    "Kaguya",
+    "Lee",
+    "Nara",
+    "Sarutobi",
+    "Senju",
+    "Uchiha",
+    "Uzumaki",
+    "Yamanaka",
+    "Otsutsuki",
+    "Fuma"
   ]
 }

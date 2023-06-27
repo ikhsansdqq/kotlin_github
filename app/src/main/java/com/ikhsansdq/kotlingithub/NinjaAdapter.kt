@@ -25,8 +25,8 @@ class NinjaAdapter(
 
     override fun onBindViewHolder(holder: NinjaAdapter.MyViewHolder, position: Int) {
         holder.ninja_name.text = ninjaNames[position]
-        holder.ninja_status.text = ninjaStatus[position]
-        holder.ninja_rank.text = ninjaRank[position]
+        holder.ninja_status.text = String.format("Status: %s", ninjaStatus[position])
+        holder.ninja_rank.text = String.format("Rank: %s", ninjaRank[position])
 
         Picasso.get()
             .load(ninjaImg[position])
@@ -42,9 +42,13 @@ class NinjaAdapter(
     }
 
     inner class MyViewHolder(itemView: View) : ViewHolder(itemView) {
-        var ninja_name: TextView = itemView.findViewById<View>(R.id.ninja_name_placeholder) as TextView
-        var ninja_status: TextView = itemView.findViewById<View>(R.id.ninja_status_placeholder) as TextView
-        var ninja_rank: TextView = itemView.findViewById<View>(R.id.ninja_rank_placeholder) as TextView
-        var ninja_img: ImageView = itemView.findViewById<View>(R.id.ninja_img_placeholder) as ImageView
+        var ninja_name: TextView =
+            itemView.findViewById<View>(R.id.ninja_name_placeholder) as TextView
+        var ninja_status: TextView =
+            itemView.findViewById<View>(R.id.ninja_status_placeholder) as TextView
+        var ninja_rank: TextView =
+            itemView.findViewById<View>(R.id.ninja_rank_placeholder) as TextView
+        var ninja_img: ImageView =
+            itemView.findViewById<View>(R.id.ninja_img_placeholder) as ImageView
     }
 }

@@ -1,44 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.google.android.material.card.MaterialCardView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:clickable="true"
-    android:focusable="true"
-    android:layout_margin="16sp"
-    android:padding="16sp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
     android:background="@color/white"
     android:checkable="true"
-    android:layout_height="wrap_content">
+    android:clickable="true"
+    android:focusable="true"
+    android:padding="16sp"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="0sp"
+    app:strokeColor="@android:color/transparent"
+    app:strokeWidth="0dp">
 
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:paddingHorizontal="14dp"
+        android:paddingVertical="12dp">
 
         <ImageView
-            android:contentDescription="@string/app_name"
             android:id="@+id/ninja_img_placeholder"
-            android:src="@drawable/img_placeholder"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_placeholder" />
 
-        <TextView
-            android:text="@string/app_name"
-            android:id="@+id/ninja_name_placeholder"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingHorizontal="12dp">
 
-        <TextView
-            android:text="@string/app_name"
-            android:id="@+id/ninja_status_placeholder"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/ninja_name_placeholder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/opensans_bold"
+                android:text="@string/app_name"
+                android:textSize="16sp" />
 
-        <TextView
-            android:text="@string/app_name"
-            android:id="@+id/ninja_rank_placeholder"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/ninja_status_placeholder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4sp"
+                android:fontFamily="@font/inter_regular"
+                android:text="Status: Alive" />
+
+            <TextView
+                android:id="@+id/ninja_rank_placeholder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4sp"
+                android:fontFamily="@font/inter_regular"
+                android:text="Rank: Kage" />
+
+        </LinearLayout>
+
 
     </LinearLayout>
 
