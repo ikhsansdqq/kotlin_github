@@ -1,52 +1,2033 @@
 {
-  "konoha": [
+  "clans": [
     {
-      "name": "Uzumaki Naruto",
-      "affiliation": "Konoha",
-      "status": "Alive",
-      "rank": "Kage",
-      "img_url": "https://static.wikia.nocookie.net/naruto/images/4/42/Naruto_Part_III.png/revision/latest/scale-to-width-down/300?cb=20180117103539"
+      "id": 0,
+      "name": "Aburame",
+      "characters": [
+        {
+          "id": 9,
+          "name": "Harika Aburame",
+          "images": [
+            "https://static.wikia.nocookie.net/naruto/images/4/4e/Harika_Aburame.png/revision/latest/scale-to-width-down/300?cb=20220904143733"
+          ],
+          "debut": {
+            "anime": "Boruto Episode #261",
+            "appearsIn": "Anime"
+          },
+          "jutsu": [
+            "Parasitic Destruction Insect Technique (Kikaichū)"
+          ],
+          "personal": {
+            "sex": "Female",
+            "affiliation": "Konohagakure",
+            "clan": "Aburame"
+          },
+          "rank": {
+            "ninjaRank": {
+              "Boruto Manga": "Academy Student"
+            }
+          },
+          "voiceActors": {
+            "japanese": "Tomo Muranaka"
+          }
+        },
+        {
+          "id": 10,
+          "name": "Muta Aburame",
+          "images": [
+            "https://static.wikia.nocookie.net/naruto/images/1/1f/Aburame_Muta.png/revision/latest/scale-to-width-down/300?cb=20160115101249"
+          ],
+          "debut": {
+            "manga": "Naruto Chapter #427",
+            "anime": "Naruto Shippūden Episode #162",
+            "movie": "Naruto the Movie: Blood Prison",
+            "appearsIn": "Anime, Manga, Movie"
+          },
+          "jutsu": [
+            "Insect Jamming Technique",
+            "Parasitic Destruction Insect Technique (Kikaichū, Shōkaichū)"
+          ],
+          "personal": {
+            "sex": "Male",
+            "age": {
+              "Part II": "24"
+            },
+            "status": "Deceased",
+            "affiliation": [
+              "Konohagakure",
+              "Allied Shinobi Forces"
+            ],
+            "team": "Infiltration and Reconnaissance Party",
+            "clan": "Aburame"
+          },
+          "rank": {
+            "ninjaRank": {
+              "Part II": "Tokubetsu Jōnin"
+            }
+          },
+          "voiceActors": {
+            "japanese": "Hidenori Takahashi",
+            "english": "Nicolas Roye"
+          }
+        },
+        {
+          "id": 11,
+          "name": "Shibi Aburame",
+          "images": [
+            "https://static.wikia.nocookie.net/naruto/images/b/b3/Shibi.png/revision/latest/scale-to-width-down/300?cb=20150315114902"
+          ],
+          "debut": {
+            "manga": "Naruto Chapter #137",
+            "anime": "Naruto Episode #79",
+            "novel": "Naruto Shippūden the Movie: The Lost Tower",
+            "movie": "Naruto Shippūden the Movie: The Lost Tower",
+            "game": "Naruto Shippūden: Ultimate Ninja Blazing",
+            "ova": "Hidden Leaf Village Grand Sports Festival!",
+            "appearsIn": "Anime, Manga, Novel, Game, Movie"
+          },
+          "family": {
+            "son": "Shino Aburame",
+            "adoptive son": "Torune Aburame"
+          },
+          "jutsu": [
+            "Naruto: Shinobi Collection Shippū Ranbu27 July 2015"
+          ],
+          "personal": {
+            "birthdate": "September 7",
+            "sex": "Male",
+            "age": {
+              "Part I": "39",
+              "Part II": "43"
+            },
+            "height": {
+              "Part I": "181.3cm"
+            },
+            "weight": {
+              "Part I": "68.9kg"
+            },
+            "bloodType": "A",
+            "occupation": "Head of the Aburame Clan",
+            "affiliation": [
+              "Konohagakure",
+              "Allied Shinobi Forces"
+            ],
+            "clan": "Aburame"
+          },
+          "rank": {
+            "ninjaRank": {
+              "Part I": "Jōnin"
+            },
+            "ninjaRegistration": "005480"
+          },
+          "voiceActors": {
+            "japanese": "Kenji Hamada",
+            "english": "Crispin Freeman"
+          }
+        },
+        {
+          "id": 12,
+          "name": "Shikuro Aburame",
+          "images": [],
+          "family": {
+            "son": "Torune Aburame"
+          },
+          "jutsu": [
+            "Parasitic Destruction Insect Technique (Rinkaichū)"
+          ],
+          "personal": {
+            "sex": "Male",
+            "status": "Deceased",
+            "affiliation": "Konohagakure",
+            "clan": "Aburame"
+          },
+          "tools": [
+            "Antidote",
+            "Poison"
+          ]
+        },
+        {
+          "id": 13,
+          "name": "Shino Aburame",
+          "images": [
+            "https://static.wikia.nocookie.net/naruto/images/9/9c/Shino.png/revision/latest/scale-to-width-down/300?cb=20160924021327",
+            "https://static.wikia.nocookie.net/naruto/images/e/e1/Shino_Aburame_P2.png/revision/latest/scale-to-width-down/300?cb=20160927065621"
+          ],
+          "debut": {
+            "manga": "Naruto Chapter #34",
+            "anime": "Naruto Episode #1",
+            "novel": "Kakashi Hiden: Lightning in the Icy Sky",
+            "movie": "Naruto Shippūden the Movie: Bonds",
+            "game": "Naruto: Konoha Ninpōchō",
+            "ova": "Hidden Leaf Village Grand Sports Festival!",
+            "appearsIn": "Anime, Manga, Novel, Game, Movie"
+          },
+          "family": {
+            "father": "Shibi Aburame",
+            "adoptive brother": "Torune Aburame"
+          },
+          "jutsu": [
+            "Human Cocoon Technique (Anime only)",
+            "Insect Clone Technique",
+            "Insect Jamming Technique",
+            "Insect Jar Technique (Anime only)",
+            "Insect Rope Technique (Anime only)",
+            "Iron Mountain Leaning (Anime only)",
+            "Manipulated Shuriken Technique (Anime only)",
+            "Parasitic Destruction Insect Technique (Giant Insect, Kidaichū, Kikaichū)",
+            "Parasitic Giant Insect — Bug Bite",
+            "Secret Technique: Insect Cocoon (Anime only)",
+            "Secret Technique: Insect Gathering (Anime only)",
+            "Secret Technique: Insect Sphere",
+            "Secret Technique: Insect Tornado (Anime only)",
+            "Secret Technique: Insect Wall (Anime only)",
+            "Spindle Formation (Anime only)",
+            "Summoning Technique (Giant Insect, Kidaichū, Kikaichū)"
+          ],
+          "natureType": [
+            "Earth Release",
+            "Fire Release",
+            "Yang Release"
+          ],
+          "personal": {
+            "birthdate": "January 23",
+            "sex": "Male",
+            "age": {
+              "Part I": "12–13",
+              "Part II": "16–17",
+              "Academy Graduate": "12",
+              "Chunin Promotion": "14"
+            },
+            "height": {
+              "Part I": "156.2cm - 161.1cm",
+              "Part II": "175.1cm",
+              "Blank Period": "182cm",
+              "Gaiden": "186.5cm"
+            },
+            "weight": {
+              "Part I": "45.8kg - 48.5kg",
+              "Part II": "56.6kg"
+            },
+            "bloodType": "AB",
+            "occupation": [
+              "Academy Teacher",
+              "Chūnin Exams Proctor",
+              "Genin Exams Proctor  (Anime only)"
+            ],
+            "affiliation": [
+              "Konohagakure",
+              "Allied Shinobi Forces"
+            ],
+            "team": [
+              "Team 8",
+              "Konoha 11  (Anime only)",
+              "Bikōchū Search Team  (Anime only)",
+              "Kaima Capture Team  (Anime only)",
+              "Eight Man Squad",
+              "Team One  (Anime only)",
+              "Fifth Division"
+            ],
+            "clan": "Aburame"
+          },
+          "rank": {
+            "ninjaRank": {
+              "Part I": "Genin",
+              "Part II": "Chūnin"
+            },
+            "ninjaRegistration": "012618"
+          },
+          "tools": [
+            "Sealing Tag (Anime only)",
+            "Wire Strings (Anime only)"
+          ],
+          "voiceActors": {
+            "japanese": "Shinji Kawada",
+            "english": [
+              "Sam Riegel   (Episodes 23-24)",
+              "Derek Stephen Prince   (Episode 34+)"
+            ]
+          }
+        },
+        {
+          "id": 14,
+          "name": "Tatsuma Aburame",
+          "images": [
+            "https://static.wikia.nocookie.net/naruto/images/b/bb/Tatsuma_Aburame.png/revision/latest/scale-to-width-down/300?cb=20141107145937"
+          ],
+          "debut": {
+            "manga": "Naruto Chapter #583",
+            "anime": "Naruto Shippūden Episode #336",
+            "appearsIn": "Anime, Manga"
+          },
+          "jutsu": [
+            "Parasitic Destruction Insect Technique"
+          ],
+          "personal": {
+            "sex": "Male",
+            "age": {
+              "Part II": "21"
+            },
+            "affiliation": [
+              "Konohagakure",
+              "Root"
+            ],
+            "clan": "Aburame"
+          },
+          "rank": {
+            "ninjaRank": {
+              "Part II": "Anbu"
+            }
+          },
+          "voiceActors": {
+            "japanese": "Ryūichi Kijima",
+            "english": "Bryce Papenbrook"
+          }
+        },
+        {
+          "id": 15,
+          "name": "Torune Aburame",
+          "images": [
+            "https://static.wikia.nocookie.net/naruto/images/3/35/Torune_Anime.png/revision/latest/scale-to-width-down/300?cb=20150209195934"
+          ],
+          "debut": {
+            "manga": "Naruto Chapter #454",
+            "anime": "Naruto Shippūden Episode #198",
+            "game": "Naruto Shippūden: Ultimate Ninja Storm Generations",
+            "appearsIn": "Anime, Manga, Game"
+          },
+          "family": {
+            "father": "Shikuro Aburame",
+            "adoptive brother": "Shino Aburame",
+            "adoptive father": "Shibi Aburame"
+          },
+          "jutsu": [
+            "Assassination Technique (Anime only)",
+            "Insect Clone Technique (Anime only)",
+            "Jar of Poison Technique (Anime only)",
+            "Parasitic Destruction Insect Technique (Kikaichū, Rinkaichū)",
+            "Poison Cloud Technique (Anime only)"
+          ],
+          "personal": {
+            "birthdate": "October 24",
+            "sex": "Male",
+            "age": {
+              "Part II": "19"
+            },
+            "status": "Deceased",
+            "height": {
+              "Part II": "178.3cm"
+            },
+            "weight": {
+              "Part II": "68.7kg"
+            },
+            "bloodType": "O",
+            "affiliation": [
+              "Konohagakure",
+              "Root"
+            ],
+            "team": "Impure World Reincarnation Allied Forces  (Anime only)",
+            "partner": "Fū Yamanaka",
+            "clan": "Aburame"
+          },
+          "rank": {
+            "ninjaRank": {
+              "Part II": "Anbu"
+            },
+            "ninjaRegistration": "012360"
+          },
+          "tools": [
+            "Antidote",
+            "Poison",
+            "Tantō"
+          ],
+          "voiceActors": {
+            "japanese": "Hidenori Takahashi",
+            "english": "Grant George"
+          }
+        },
+        {
+          "id": 16,
+          "name": "Yōji Aburame",
+          "images": [],
+          "jutsu": [
+            "Parasitic Destruction Insect Technique (Kochū)"
+          ],
+          "personal": {
+            "sex": "Male",
+            "status": "Deceased",
+            "affiliation": [
+              "Konohagakure",
+              "Root"
+            ],
+            "team": [
+              "Team 2",
+              "Team Ro"
+            ],
+            "clan": "Aburame"
+          },
+          "rank": {
+            "ninjaRank": {
+              "Part I": "Anbu"
+            }
+          }
+        }
+      ]
     },
     {
-      "name": "Haruno Sakura",
-      "affiliation": "Konoha",
-      "status": "Alive",
-      "rank": "Jonin",
-      "img_url": "https://static.wikia.nocookie.net/naruto/images/a/a5/Sakura_Part_III.png/revision/latest/scale-to-width-down/300?cb=20170726100410"
+      "id": 1,
+      "name": "Akimichi",
+      "characters": [
+        {
+          "id": 38,
+          "name": "Chōbee Akimichi",
+          "images": [
+            "https://static.wikia.nocookie.net/naruto/images/6/69/Ch%C5%8Dbee_Akimichi.png/revision/latest/scale-to-width-down/300?cb=20170809125734"
+          ],
+          "debut": {
+            "ova": "Boruto OVA",
+            "appearsIn": "Anime"
+          },
+          "family": {
+            "nephew": "Chōji Akimichi",
+            "grandniece": "Chōchō Akimichi"
+          },
+          "jutsu": [
+            "Calorie Control",
+            "Multi-Size Technique",
+            "Partial Multi-Size Technique"
+          ],
+          "natureType": [
+            "Yang Release"
+          ],
+          "personal": {
+            "sex": "Male",
+            "affiliation": "Konohagakure",
+            "clan": "Akimichi"
+          },
+          "voiceActors": {
+            "japanese": "Kōsuke Gotō",
+            "english": "Robbie Daymond"
+          }
+        },
+        {
+          "id": 39,
+          "name": "Chōchō Akimichi",
+          "images": [
+            "https://static.wikia.nocookie.net/naruto/images/0/08/Ch%C5%8Dch%C5%8D_Akimichi.png/revision/latest/scale-to-width-down/300?cb=20171220104427"
+          ],
+          "debut": {
+            "manga": "Naruto Chapter #700",
+            "anime": "Boruto Episode #1",
+            "novel": "Boruto: Naruto the Movie",
+            "movie": "Boruto: Naruto the Movie",
+            "game": "Naruto: Ultimate Ninja Online",
+            "ova": "The Day Naruto Became Hokage (OVA)",
+            "appearsIn": "Anime, Manga, Novel, Game, Movie"
+          },
+          "family": {
+            "grandmother": "Chōji's Mother",
+            "grandfather": "Chōza Akimichi",
+            "father": "Chōji Akimichi",
+            "mother": "Karui Akimichi",
+            "granduncle ": "Chōbee Akimichi"
+          },
+          "jutsu": [
+            "Naruto: Ultimate Ninja Online14 April 201320 July 2016"
+          ],
+          "natureType": [
+            "Lightning Release",
+            "Yang Release"
+          ],
+          "personal": {
+            "birthdate": "August 8",
+            "sex": "Female",
+            "age": {
+              "Boruto Movie": "12"
+            },
+            "height": {
+              "Blank Period": "130cm",
+              "Boruto Movie": "150.5cm"
+            },
+            "affiliation": "Konohagakure",
+            "team": "Team 10",
+            "clan": "Akimichi"
+          },
+          "rank": {
+            "ninjaRank": {
+              "Gaiden": "Genin"
+            }
+          },
+          "voiceActors": {
+            "japanese": "Ryōko Shiraishi",
+            "english": "Colleen Villard"
+          }
+        },
+        {
+          "id": 40,
+          "name": "Chōji Akimichi",
+          "images": [
+            "https://static.wikia.nocookie.net/naruto/images/7/7d/Ch%C5%8Dji_Akimichi.png/revision/latest/scale-to-width-down/300?cb=20200426204415",
+            "https://static.wikia.nocookie.net/naruto/images/e/ec/Ch%C5%8Dji_Part_II.png/revision/latest/scale-to-width-down/300?cb=20180802115246"
+          ],
+          "debut": {
+            "manga": "Naruto Chapter #34",
+            "anime": "Naruto Episode #1",
+            "novel": "Kakashi Hiden: Lightning in the Icy Sky",
+            "movie": "Naruto Shippūden the Movie",
+            "game": "Naruto: Konoha Ninpōchō",
+            "ova": "Hidden Leaf Village Grand Sports Festival!",
+            "appearsIn": "Anime, Manga, Novel, Game, Movie"
+          },
+          "family": {
+            "father": "Chōza Akimichi",
+            "mother": "Chōji's Mother",
+            "daughter": "Chōchō Akimichi",
+            "wife": "Karui Akimichi",
+            "uncle ": "Chōbee Akimichi"
+          },
+          "jutsu": [
+            "Ballistic Waterwheel (Anime only)",
+            "Butterfly Bullet Bombing",
+            "Butterfly Mode",
+            "Calorie Control",
+            "Double Human Bullet Tank",
+            "Earth Release: Practice Brick Technique",
+            "Formation Ino–Shika–Chō",
+            "Human Bullet Tank",
+            "Human Bullet Yo-Yo",
+            "Multi-Size Technique",
+            "Partial Multi-Size Technique",
+            "Spiked Human Bullet Tank",
+            "Super Multi-Size Technique",
+            "Super Open Hand Slap"
+          ],
+          "natureType": [
+            "Earth Release",
+            "Fire Release",
+            "Yang Release"
+          ],
+          "personal": {
+            "birthdate": "May 1",
+            "sex": "Male",
+            "age": {
+              "Part I": "12–13",
+              "Part II": "16–17",
+              "Academy Graduate": "12",
+              "Chunin Promotion": "14"
+            },
+            "height": {
+              "Part I": "150.6cm - 156.3cm",
+              "Part II": "172.3cm",
+              "Blank Period": "178cm"
+            },
+            "weight": {
+              "Part I": "62kg - 69.3kg",
+              "Part II": "87.5kg"
+            },
+            "bloodType": "B",
+            "affiliation": [
+              "Konohagakure",
+              "Allied Shinobi Forces"
+            ],
+            "team": [
+              "Team 10",
+              "Sasuke Recovery Team",
+              "Konoha 11  (Anime only)",
+              "Peddlers Escort Team  (Anime only)",
+              "Twenty Platoons",
+              "Fourth Division"
+            ],
+            "clan": "Akimichi"
+          },
+          "rank": {
+            "ninjaRank": {
+              "Part I": "Genin",
+              "Part II": "Chūnin"
+            },
+            "ninjaRegistration": "012625"
+          },
+          "tools": [
+            "Military Rations Pill",
+            "Three Coloured Pills"
+          ],
+          "voiceActors": {
+            "japanese": [
+              "Kentarō Itō",
+              "Yūmi Kawashima  (Child)"
+            ],
+            "english": [
+              "Robbie Rist",
+              "Colleen Villard   (Child)"
+            ]
+          }
+        },
+        {
+          "id": 41,
+          "name": "Chōji's Mother",
+          "images": [
+            "https://static.wikia.nocookie.net/naruto/images/1/17/Choji%27s_Mother.png/revision/latest/scale-to-width-down/300?cb=20160125195859"
+          ],
+          "family": {
+            "son": "Chōji Akimichi",
+            "granddaughter": "Chōchō Akimichi",
+            "husband": "Chōza Akimichi"
+          },
+          "personal": {
+            "sex": "Female",
+            "affiliation": "Konohagakure",
+            "team": "Allied Mothers Force",
+            "clan": "Akimichi"
+          },
+          "voiceActors": {
+            "japanese": "Chiharu Kojima",
+            "english": "Mary Elizabeth McGlynn"
+          }
+        },
+        {
+          "id": 42,
+          "name": "Chōza Akimichi",
+          "images": [
+            "https://static.wikia.nocookie.net/naruto/images/a/a8/Ch%C5%8Dza_Akimichi.png/revision/latest/scale-to-width-down/300?cb=20180304093618"
+          ],
+          "debut": {
+            "manga": "Naruto Chapter #137",
+            "anime": "Naruto Episode #59",
+            "novel": "Naruto Shinden: Parent and Child Day",
+            "movie": "Naruto Shippūden the Movie: The Lost Tower",
+            "game": "Naruto: Ultimate Ninja 3",
+            "ova": "Hidden Leaf Village Grand Sports Festival!",
+            "appearsIn": "Anime, Manga, Novel, Game, Movie"
+          },
+          "family": {
+            "son": "Chōji Akimichi",
+            "granddaughter": "Chōchō Akimichi",
+            "wife": "Chōji's Mother"
+          },
+          "jutsu": [
+            "Calorie Control",
+            "Double Human Bullet Tank",
+            "Formation Ino–Shika–Chō",
+            "Human Bullet Tank",
+            "Multi-Size Technique",
+            "Partial Multi-Size Technique",
+            "Super Multi-Size Technique"
+          ],
+          "natureType": [
+            "Yang Release"
+          ],
+          "personal": {
+            "birthdate": "April 22",
+            "sex": "Male",
+            "age": {
+              "Part I": "38",
+              "Part II": "42"
+            },
+            "height": {
+              "Part I": "183cm"
+            },
+            "weight": {
+              "Part I": "120.1kg"
+            },
+            "bloodType": "B",
+            "occupation": "Head of the Akimichi Clan",
+            "affiliation": [
+              "Konohagakure",
+              "Allied Shinobi Forces"
+            ],
+            "team": [
+              "Ino–Shika–Chō",
+              "First Division",
+              "Team Chōza  (Anime only)"
+            ],
+            "clan": "Akimichi"
+          },
+          "rank": {
+            "ninjaRank": {
+              "Part I": "Jōnin"
+            },
+            "ninjaRegistration": "005490"
+          },
+          "tools": [
+            "Bō"
+          ],
+          "voiceActors": {
+            "japanese": "Nobuaki Fukuda",
+            "english": "Michael Sorich"
+          }
+        },
+        {
+          "id": 43,
+          "name": "Dōtō Akimichi",
+          "images": [
+            "https://static.wikia.nocookie.net/naruto/images/0/07/D%C5%8Dt%C5%8D_Akimichi.png/revision/latest/scale-to-width-down/300?cb=20220219091130"
+          ],
+          "debut": {
+            "manga": "Naruto Chapter #542",
+            "anime": "Naruto Shippūden Episode #282",
+            "game": "Naruto Mobile",
+            "appearsIn": "Anime, Manga, Game"
+          },
+          "jutsu": [
+            "Calorie Control"
+          ],
+          "natureType": [
+            "Yang Release"
+          ],
+          "personal": {
+            "sex": "Male",
+            "age": {
+              "Part II": "29"
+            },
+            "affiliation": "Konohagakure",
+            "clan": "Akimichi",
+            "titles": [
+              "秋道ドウトウAkimichiDōtō"
+            ]
+          },
+          "rank": {
+            "ninjaRank": {
+              "Part II": "Jōnin"
+            }
+          },
+          "tools": [
+            "Bō"
+          ],
+          "voiceActors": {
+            "english": "Steve Kramer"
+          }
+        },
+        {
+          "id": 44,
+          "name": "Makaro Akimichi",
+          "images": [
+            "https://static.wikia.nocookie.net/naruto/images/4/4f/Makaro_Akimichi.png/revision/latest/scale-to-width-down/300?cb=20141107143226"
+          ],
+          "debut": {
+            "manga": "Naruto Chapter #631",
+            "anime": "Naruto Shippūden Episode #372",
+            "appearsIn": "Anime, Manga"
+          },
+          "jutsu": [
+            "Calorie Control"
+          ],
+          "natureType": [
+            "Yang Release"
+          ],
+          "personal": {
+            "sex": "Male",
+            "age": {
+              "Part II": "17"
+            },
+            "affiliation": [
+              "Konohagakure",
+              "Allied Shinobi Forces"
+            ],
+            "clan": "Akimichi"
+          },
+          "rank": {
+            "ninjaRank": {
+              "Part II": "Chūnin"
+            }
+          }
+        },
+        {
+          "id": 45,
+          "name": "Maruten Akimichi",
+          "images": [
+            "https://static.wikia.nocookie.net/naruto/images/5/5a/Maruten_Akimichi.png/revision/latest/scale-to-width-down/300?cb=20220211075943"
+          ],
+          "debut": {
+            "manga": "Naruto Chapter #534",
+            "anime": "Naruto Shippūden Episode #275",
+            "appearsIn": "Anime, Manga"
+          },
+          "jutsu": [
+            "Calorie Control"
+          ],
+          "natureType": [
+            "Yang Release"
+          ],
+          "personal": {
+            "sex": "Male",
+            "age": {
+              "Part II": "21"
+            },
+            "affiliation": [
+              "Konohagakure",
+              "Allied Shinobi Forces"
+            ],
+            "clan": "Akimichi"
+          },
+          "rank": {
+            "ninjaRank": {
+              "Part II": "Tokubetsu Jōnin"
+            }
+          },
+          "tools": [
+            "Bō"
+          ]
+        },
+        {
+          "id": 46,
+          "name": "Shitō Akimichi",
+          "images": [
+            "https://static.wikia.nocookie.net/naruto/images/0/04/Shit%C5%8D_Akimichi.png/revision/latest/scale-to-width-down/300?cb=20160217120955"
+          ],
+          "debut": {
+            "manga": "Naruto Chapter #422",
+            "anime": "Naruto Shippūden Episode #159",
+            "appearsIn": "Anime, Manga"
+          },
+          "jutsu": [
+            "Calorie Control",
+            "Multi-Size Technique",
+            "Partial Multi-Size Technique"
+          ],
+          "natureType": [
+            "Yang Release"
+          ],
+          "personal": {
+            "sex": "Male",
+            "age": {
+              "Part II": "32"
+            },
+            "affiliation": [
+              "Konohagakure",
+              "Allied Shinobi Forces"
+            ],
+            "clan": "Akimichi"
+          },
+          "rank": {
+            "ninjaRank": {
+              "Part II": "Jōnin"
+            }
+          },
+          "tools": [
+            "Bō"
+          ]
+        },
+        {
+          "id": 47,
+          "name": "Torifu Akimichi",
+          "images": [
+            "https://static.wikia.nocookie.net/naruto/images/0/0a/Torifu_Akimichi.png/revision/latest/scale-to-width-down/300?cb=20160122152536"
+          ],
+          "debut": {
+            "manga": "Naruto Chapter #481",
+            "anime": "Naruto Shippūden Episode #211",
+            "appearsIn": "Anime, Manga"
+          },
+          "jutsu": [
+            "Calorie Control"
+          ],
+          "natureType": [
+            "Yang Release"
+          ],
+          "personal": {
+            "sex": "Male",
+            "age": {
+              "Part II": "30"
+            },
+            "status": "Presumed Deceased",
+            "affiliation": "Konohagakure",
+            "team": "Escort Unit",
+            "clan": "Akimichi"
+          },
+          "rank": {
+            "ninjaRank": {
+              "Part II": "Jōnin"
+            }
+          },
+          "tools": [
+            "Bō (Manga only)",
+            "Shield (Manga only)"
+          ],
+          "voiceActors": {
+            "japanese": "Junpei Endō",
+            "english": "Neil Kaplan"
+          }
+        },
+        {
+          "id": 596,
+          "name": "Karui",
+          "images": [
+            "https://static.wikia.nocookie.net/naruto/images/c/c3/Karui.png/revision/latest/scale-to-width-down/300?cb=20170714025704",
+            "https://static.wikia.nocookie.net/naruto/images/7/7f/Karui_Part_III.png/revision/latest/scale-to-width-down/300?cb=20180524135715"
+          ],
+          "debut": {
+            "manga": "Naruto Chapter #417",
+            "anime": "Naruto Shippūden Episode #156",
+            "novel": "The Last Day at the Ninja Academy!",
+            "movie": "Naruto the Movie: Blood Prison",
+            "game": "Naruto Shippūden: Ultimate Ninja Storm 4",
+            "ova": "Chūnin Exam on Fire! Naruto vs. Konohamaru!",
+            "appearsIn": "Anime, Manga, Novel, Game, Movie"
+          },
+          "family": {
+            "daughter": "Chōchō Akimichi",
+            "husband": "Chōji Akimichi"
+          },
+          "jutsu": [
+            "Cloud-Style Front Beheading (Manga only)"
+          ],
+          "natureType": [
+            "Lightning Release  (Anime only)"
+          ],
+          "personal": {
+            "birthdate": "February 14",
+            "sex": "Female",
+            "age": {
+              "Part II": "17"
+            },
+            "height": {
+              "Part II": "166cm"
+            },
+            "weight": {
+              "Part II": "47.9kg"
+            },
+            "bloodType": "A",
+            "affiliation": [
+              "Kumogakure",
+              "Konohagakure",
+              "Allied Shinobi Forces"
+            ],
+            "team": [
+              "Team Samui",
+              "Second Division"
+            ],
+            "clan": "Akimichi"
+          },
+          "rank": {
+            "ninjaRank": {
+              "Part II": "Chūnin"
+            },
+            "ninjaRegistration": "CL6306"
+          },
+          "tools": [
+            "Sword"
+          ],
+          "voiceActors": {
+            "japanese": "Yuka Komatsu",
+            "english": [
+              "Danielle Nicolet",
+              "Sascha Alexander  (Academy Entrance Arc and onwards)"
+            ]
+          }
+        }
+      ]
     },
     {
-      "name": "Uchiha Sasuke",
-      "affiliation": "Konoha",
-      "status": "Alive",
-      "rank": "Genin",
-      "img_url": "https://static.wikia.nocookie.net/naruto/images/b/b7/Sasuke_Part_3.png/revision/latest/scale-to-width-down/300?cb=20190224132913"
+      "id": 2,
+      "name": "Amagiri",
+      "characters": [
+        {
+          "id": 57,
+          "name": "Gensui Amagiri",
+          "images": [
+            "https://static.wikia.nocookie.net/naruto/images/c/c1/Gensui_Amagiri.jpg/revision/latest?cb=20110527130053"
+          ],
+          "debut": {
+            "game": "Naruto Shippūden: Kizuna Drive",
+            "appearsIn": "Game"
+          },
+          "family": {
+            "son": "Taisa Amagiri"
+          },
+          "jutsu": [
+            "Chakra Levitation Technique",
+            "Tailed Beast Replication",
+            "Telescope Technique"
+          ],
+          "personal": {
+            "sex": "Male",
+            "affiliation": "Yumegakure",
+            "clan": "Amagiri"
+          },
+          "tools": [
+            "Chakra Enhanced Triple-Bladed Claw"
+          ],
+          "voiceActors": {
+            "japanese": "Masayuki Omoro",
+            "english": "Michael McConnohie"
+          }
+        },
+        {
+          "id": 58,
+          "name": "Taisa Amagiri",
+          "images": [
+            "https://static.wikia.nocookie.net/naruto/images/d/de/Taisa_Amagiri.png/revision/latest?cb=20120228151033"
+          ],
+          "debut": {
+            "game": "Naruto Shippūden: Kizuna Drive",
+            "appearsIn": "Game"
+          },
+          "family": {
+            "father": "Gensui Amagiri"
+          },
+          "jutsu": [
+            "Lightning Tackle",
+            "Poison Mist",
+            "Taisa's Transformation Technique"
+          ],
+          "natureType": [
+            "Lightning Release"
+          ],
+          "personal": {
+            "sex": "Male",
+            "affiliation": "Yumegakure",
+            "clan": "Amagiri"
+          },
+          "tools": [
+            "Poison"
+          ],
+          "voiceActors": {
+            "japanese": "Yumiko Kobayashi",
+            "english": "Stephanie Sheh"
+          }
+        }
+      ]
     },
     {
-      "name": "Kakashi Hatake",
-      "affiliation": "Konoha",
-      "status": "Alive",
-      "rank": "Jonin (ex-Kage)",
-      "img_url": "https://static.wikia.nocookie.net/naruto/images/2/25/Kakashi_Part_III.png/revision/latest/scale-to-width-down/300?cb=20190224133235"
+      "id": 3,
+      "name": "Chinoike",
+      "characters": [
+        {
+          "id": 145,
+          "name": "Chino",
+          "images": [
+            "https://static.wikia.nocookie.net/naruto/images/4/4d/Chino.png/revision/latest/scale-to-width-down/300?cb=20161208121431"
+          ],
+          "debut": {
+            "anime": "Naruto Shippūden Episode #484",
+            "novel": "Sasuke Shinden: Book of Sunrise",
+            "game": "Naruto Shippūden: Ultimate Ninja Blazing",
+            "appearsIn": "Anime, Novel, Game"
+          },
+          "family": {
+            "father": "En Oyashiro"
+          },
+          "jutsu": [
+            "Naruto Shippūden: Ultimate Ninja Blazing14 July 201624 August 2016"
+          ],
+          "natureType": [
+            "Water Release",
+            "Yin Release"
+          ],
+          "personal": {
+            "sex": "Female",
+            "kekkeiGenkai": "Ketsuryūgan",
+            "classification": "Sensor Type",
+            "affiliation": [
+              "Land of Hot Water",
+              "Kirigakure"
+            ],
+            "team": "Lightning Group  (Anime only)",
+            "clan": "Chinoike"
+          },
+          "voiceActors": {
+            "japanese": "Ai Kakuma",
+            "english": "Xanthe Huynh"
+          }
+        },
+        {
+          "id": 947,
+          "name": "En Oyashiro",
+          "images": [
+            "https://static.wikia.nocookie.net/naruto/images/c/cf/En_Oyashiro.png/revision/latest/scale-to-width-down/300?cb=20161215125054"
+          ],
+          "debut": {
+            "anime": "Naruto Shippūden Episode #485",
+            "novel": "Sasuke Shinden: Book of Sunrise",
+            "appearsIn": "Anime, Novel"
+          },
+          "family": {
+            "daughter": "Chino"
+          },
+          "jutsu": [
+            "Mystical Palm Technique (Anime only)"
+          ],
+          "personal": {
+            "sex": "Male",
+            "height": {
+              "Blank Period": "191cm"
+            },
+            "kekkeiGenkai": "Ketsuryūgan",
+            "classification": "Medical-nin",
+            "occupation": [
+              "Kekkei Genkai collector",
+              "Arms Merchant"
+            ],
+            "affiliation": "Land of Hot Water",
+            "clan": "Chinoike",
+            "titles": [
+              "御屋城エンOyashiroEn",
+              "merchantOfDeath(死の商人,ShiNoShōnin)"
+            ]
+          },
+          "voiceActors": {
+            "japanese": "Takuya Kirimoto",
+            "english": "Greg Chun"
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Funato",
+      "characters": [
+        {
+          "id": 240,
+          "name": "Funamushi",
+          "images": [
+            "https://static.wikia.nocookie.net/naruto/images/7/77/Funamushi.png/revision/latest/scale-to-width-down/300?cb=20220404093750"
+          ],
+          "debut": {
+            "anime": "Boruto Episode #240",
+            "appearsIn": "Anime"
+          },
+          "family": {
+            "son": "Kobuna"
+          },
+          "jutsu": [
+            "Summoning Technique (Leech)",
+            "Water Release: Blood Conversion Technique",
+            "Water Release: Furious Roaring Tornado",
+            "Water Release: Imminent Danger",
+            "Water Release: Jadeite",
+            "Water Release: Raging Jellyfish",
+            "Water Release: Water Formation Wall",
+            "Water Release: Water Spikes"
+          ],
+          "natureType": [
+            "Water Release"
+          ],
+          "personal": {
+            "sex": "Male",
+            "status": "Deceased",
+            "occupation": "Pirate",
+            "affiliation": "Land of Water",
+            "clan": "Funato"
+          },
+          "tools": [
+            "Sword",
+            "Tantō"
+          ],
+          "voiceActors": {
+            "japanese": "Takahiro Fujiwara"
+          }
+        },
+        {
+          "id": 242,
+          "name": "Araumi Funato",
+          "images": [
+            "https://static.wikia.nocookie.net/naruto/images/c/c2/Araumi_Funato.png/revision/latest/scale-to-width-down/300?cb=20220130144204"
+          ],
+          "debut": {
+            "anime": "Boruto Episode #233",
+            "appearsIn": "Anime"
+          },
+          "family": {
+            "son": "Isari Funato",
+            "daughter": "Seiren Funato",
+            "wife": "Minamo Funato",
+            "adoptive son": "Tenma Funato"
+          },
+          "jutsu": [
+            "Water Release: Blood Conversion Technique"
+          ],
+          "natureType": [
+            "Water Release"
+          ],
+          "personal": {
+            "sex": "Male",
+            "occupation": [
+              "Head of the Funato Clan",
+              "Pirate"
+            ],
+            "affiliation": "Land of Water",
+            "clan": "Funato"
+          },
+          "tools": [
+            "Chakra Cannon",
+            "Marlin Harpoon",
+            "Spear"
+          ],
+          "uniqueTraits": [
+            "Gills"
+          ],
+          "voiceActors": {
+            "japanese": "Shigeru Chiba"
+          }
+        },
+        {
+          "id": 243,
+          "name": "Ikada Funato",
+          "images": [
+            "https://static.wikia.nocookie.net/naruto/images/7/79/Ikada_Funato.png/revision/latest/scale-to-width-down/300?cb=20220522174924"
+          ],
+          "debut": {
+            "anime": "Boruto Episode #239",
+            "appearsIn": "Anime"
+          },
+          "family": {
+            "father": "Araumi Funato",
+            "mother": "Minamo Funato",
+            "brother": "Isari Funato",
+            "sister": "Seiren Funato",
+            "adoptive brother": "Tenma Funato"
+          },
+          "natureType": [
+            "Water Release"
+          ],
+          "personal": {
+            "sex": "Male",
+            "occupation": [
+              "Shipbuilding apprentice",
+              "Pirate  (Former)"
+            ],
+            "affiliation": "Land of Water",
+            "clan": "Funato"
+          },
+          "uniqueTraits": [
+            "Gills and webbed hands"
+          ],
+          "voiceActors": {
+            "japanese": [
+              "Yusuke Shirai",
+              "Juri Nagatsuma   (Child)"
+            ]
+          }
+        },
+        {
+          "id": 244,
+          "name": "Isari Funato",
+          "images": [
+            "https://static.wikia.nocookie.net/naruto/images/c/c5/Isari_Funato.png/revision/latest/scale-to-width-down/300?cb=20220130141629"
+          ],
+          "debut": {
+            "anime": "Boruto Episode #233",
+            "appearsIn": "Anime"
+          },
+          "family": {
+            "father": "Araumi Funato",
+            "mother": "Minamo Funato",
+            "brother": "Ikada Funato",
+            "sister": "Seiren Funato",
+            "adoptive brother": "Tenma Funato"
+          },
+          "jutsu": [
+            "Water Prison Technique",
+            "Water Release: Exploding Water Colliding Wave"
+          ],
+          "natureType": [
+            "Water Release"
+          ],
+          "personal": {
+            "sex": "Male",
+            "status": "Deceased",
+            "occupation": "Pirate",
+            "affiliation": "Land of Water",
+            "clan": "Funato"
+          },
+          "tools": [
+            "Marlin Harpoon"
+          ],
+          "uniqueTraits": [
+            "Gills"
+          ],
+          "voiceActors": {
+            "japanese": "Yoshihisa Kawahara"
+          }
+        },
+        {
+          "id": 245,
+          "name": "Minamo Funato",
+          "images": [
+            "https://static.wikia.nocookie.net/naruto/images/2/24/Minamo.png/revision/latest/scale-to-width-down/300?cb=20220530085032"
+          ],
+          "debut": {
+            "anime": "Boruto Episode #250",
+            "appearsIn": "Anime"
+          },
+          "family": {
+            "son": "Isari Funato",
+            "daughter": "Seiren Funato",
+            "husband": "Araumi Funato"
+          },
+          "personal": {
+            "sex": "Female",
+            "status": "Deceased",
+            "occupation": "Pirate",
+            "affiliation": "Land of Water",
+            "clan": "Funato"
+          },
+          "voiceActors": {
+            "japanese": "Shōko Yuzuki"
+          }
+        },
+        {
+          "id": 246,
+          "name": "Seiren Funato",
+          "images": [
+            "https://static.wikia.nocookie.net/naruto/images/4/4e/Seiren_Funato.png/revision/latest/scale-to-width-down/300?cb=20220313115013"
+          ],
+          "debut": {
+            "anime": "Boruto Episode #239",
+            "appearsIn": "Anime"
+          },
+          "family": {
+            "father": "Araumi Funato",
+            "mother": "Minamo Funato",
+            "brother": "Isari Funato",
+            "adoptive brother": "Tenma Funato"
+          },
+          "jutsu": [
+            "Echolocation Technique",
+            "Hiding in Black Fog Technique"
+          ],
+          "personal": {
+            "sex": "Female",
+            "status": "Deceased",
+            "occupation": "Pirate",
+            "affiliation": "Land of Water",
+            "clan": "Funato"
+          },
+          "tools": [
+            "Ray Bow",
+            "Sword"
+          ],
+          "uniqueTraits": [
+            "Gills"
+          ],
+          "voiceActors": {
+            "japanese": "Megumi Han"
+          },
+          "舟戸青煉FunatoSeiren": {}
+        },
+        {
+          "id": 247,
+          "name": "Tenma Funato",
+          "images": [
+            "https://static.wikia.nocookie.net/naruto/images/4/4f/Tenma.png/revision/latest/scale-to-width-down/300?cb=20220313114758"
+          ],
+          "debut": {
+            "anime": "Boruto Episode #236",
+            "appearsIn": "Anime"
+          },
+          "family": {
+            "adoptive father": "Araumi Funato",
+            "adoptive brother": "Isari Funato",
+            "adoptive sister": "Seiren Funato"
+          },
+          "jutsu": [
+            "Single Claw Bisection",
+            "Summoning: Fiddler Crab",
+            "Water Release: Water Scales"
+          ],
+          "natureType": [
+            "Water Release"
+          ],
+          "personal": {
+            "sex": "Male",
+            "status": "Deceased",
+            "occupation": "Pirate",
+            "affiliation": "Land of Water",
+            "clan": "Funato",
+            "titles": [
+              "舟戸テンマFunatoTenma"
+            ]
+          },
+          "tools": [
+            "Chakra Cannon"
+          ],
+          "voiceActors": {
+            "japanese": [
+              "Tomohiro Tsuboi",
+              "Sara Matsumoto   (Child)"
+            ]
+          }
+        },
+        {
+          "id": 331,
+          "name": "Gokai",
+          "images": [
+            "https://static.wikia.nocookie.net/naruto/images/d/d8/Gokai.png/revision/latest/scale-to-width-down/300?cb=20220503004939"
+          ],
+          "debut": {
+            "anime": "Boruto Episode #244",
+            "appearsIn": "Anime"
+          },
+          "jutsu": [
+            "Water Prison Technique"
+          ],
+          "natureType": [
+            "Water Release"
+          ],
+          "personal": {
+            "sex": "Male",
+            "occupation": "Pirate",
+            "affiliation": "Land of Water",
+            "clan": "Funato"
+          },
+          "tools": [
+            "Spear",
+            "Sword"
+          ],
+          "voiceActors": {
+            "japanese": "Taito Ban"
+          }
+        },
+        {
+          "id": 508,
+          "name": "Jibiki",
+          "images": [
+            "https://static.wikia.nocookie.net/naruto/images/4/40/Jibiki.png/revision/latest/scale-to-width-down/300?cb=20220413075351"
+          ],
+          "debut": {
+            "anime": "Boruto Episode #233",
+            "appearsIn": "Anime"
+          },
+          "jutsu": [
+            "Water Flow Sensing Technique"
+          ],
+          "natureType": [
+            "Water Release"
+          ],
+          "personal": {
+            "sex": "Male",
+            "classification": "Sensor Type",
+            "occupation": "Pirate",
+            "affiliation": "Land of Water",
+            "clan": "Funato"
+          },
+          "voiceActors": {
+            "japanese": "Toshinari Fukamachi"
+          }
+        },
+        {
+          "id": 655,
+          "name": "Kobanza",
+          "images": [
+            "https://static.wikia.nocookie.net/naruto/images/7/73/Kobanza.png/revision/latest/scale-to-width-down/300?cb=20220308121459"
+          ],
+          "debut": {
+            "anime": "Boruto Episode #238",
+            "appearsIn": "Anime"
+          },
+          "jutsu": [
+            "Water Release: Water Body"
+          ],
+          "natureType": [
+            "Water Release"
+          ],
+          "personal": {
+            "sex": "Male",
+            "status": "Deceased",
+            "occupation": "Pirate",
+            "affiliation": "Land of Water",
+            "clan": "Funato"
+          },
+          "tools": [
+            "Kabutowari"
+          ],
+          "voiceActors": {
+            "japanese": "Kōsuke Takaguchi"
+          }
+        },
+        {
+          "id": 656,
+          "name": "Kobuna",
+          "images": [
+            "https://static.wikia.nocookie.net/naruto/images/5/5f/Kobuna.png/revision/latest/scale-to-width-down/300?cb=20220613114547"
+          ],
+          "debut": {
+            "anime": "Boruto Episode #249",
+            "appearsIn": "Anime"
+          },
+          "family": {
+            "father": "Funamushi"
+          },
+          "personal": {
+            "sex": "Male",
+            "occupation": "Pirate",
+            "affiliation": "Land of Water",
+            "clan": "Funato"
+          },
+          "tools": [
+            "Blowpipe",
+            "Senbon"
+          ],
+          "voiceActors": {
+            "japanese": "Asami Tano"
+          }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Fūma",
+      "characters": [
+        {
+          "id": 78,
+          "name": "First Animal Path (character)",
+          "images": [
+            "https://static.wikia.nocookie.net/naruto/images/c/cd/Animal_Path.png/revision/latest/scale-to-width-down/300?cb=20160113164348",
+            "https://static.wikia.nocookie.net/naruto/images/4/43/Animal_Path_Alive.PNG/revision/latest/scale-to-width-down/300?cb=20160113164415"
+          ],
+          "debut": {
+            "manga": "Naruto Chapter #371",
+            "anime": "Naruto Shippūden Episode #127",
+            "game": "Naruto Shippūden: Ultimate Ninja Heroes 3",
+            "ova": "Naruto Shippūden: UNSG anime cutscenes",
+            "appearsIn": "Anime, Manga, Game"
+          },
+          "personal": {
+            "sex": "Male",
+            "status": "Deceased",
+            "height": {
+              "Part II": "168.5cm"
+            },
+            "clan": "Fūma"
+          },
+          "tools": [
+            "Fūma Shuriken"
+          ],
+          "voiceActors": {
+            "japanese": "Nobuyuki Furuta",
+            "english": "Todd Haberkorn"
+          },
+          "畜生道Chikushōdō": {}
+        },
+        {
+          "id": 238,
+          "name": "Eiki Fūma",
+          "images": [
+            "https://static.wikia.nocookie.net/naruto/images/3/38/Eiki_F%C5%ABma.png/revision/latest/scale-to-width-down/300?cb=20220808014743"
+          ],
+          "debut": {
+            "anime": "Boruto Episode #261",
+            "appearsIn": "Anime"
+          },
+          "personal": {
+            "sex": "Male",
+            "affiliation": "Konohagakure",
+            "clan": "Fūma"
+          },
+          "rank": {
+            "ninjaRank": {
+              "Boruto Manga": "Academy Student"
+            }
+          },
+          "voiceActors": {
+            "japanese": "Takuto Yoshinaga"
+          }
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Fūma   (Presumed)",
+      "characters": [
+        {
+          "id": 239,
+          "name": "Kōtarō Fūma",
+          "images": [
+            "https://static.wikia.nocookie.net/naruto/images/c/c0/Kotaro.png/revision/latest/scale-to-width-down/300?cb=20180124111524"
+          ],
+          "debut": {
+            "anime": "Boruto Episode #42",
+            "appearsIn": "Anime"
+          },
+          "personal": {
+            "sex": "Male",
+            "height": {
+              "Gaiden": "178cm"
+            },
+            "occupation": "Captain of the Konoha Military Police Force",
+            "affiliation": "Konohagakure",
+            "team": "Konoha Military Police Force",
+            "clan": "Fūma   (Presumed)",
+            "titles": [
+              "風魔コウタロウFūmaKōtarō"
+            ]
+          },
+          "rank": {
+            "ninjaRank": {
+              "Gaiden": "Tokubetsu Jōnin"
+            }
+          },
+          "tools": [
+            "Fūma Shuriken",
+            "Tantō"
+          ],
+          "voiceActors": {
+            "japanese": "Anri Katsu",
+            "english": "Eric Saleh"
+          }
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Fūma  (Land of Sound)",
+      "characters": [
+        {
+          "id": 87,
+          "name": "Arashi",
+          "images": [
+            "https://static.wikia.nocookie.net/naruto/images/f/fd/Arashi.png/revision/latest/scale-to-width-down/300?cb=20150601180429"
+          ],
+          "debut": {
+            "anime": "Naruto Episode #137",
+            "appearsIn": "Anime"
+          },
+          "family": {
+            "younger cousin": "Sasame"
+          },
+          "jutsu": [
+            "Casualty Puppet",
+            "Curse Mandala"
+          ],
+          "personal": {
+            "sex": "Male",
+            "status": "Deceased",
+            "affiliation": "Otogakure",
+            "clan": "Fūma  (Land of Sound)"
+          },
+          "voiceActors": {
+            "japanese": "Hikaru Midorikawa",
+            "english": "Benjamin Diskin"
+          }
+        },
+        {
+          "id": 367,
+          "name": "Hanzaki",
+          "images": [
+            "https://static.wikia.nocookie.net/naruto/images/2/25/Hanzaki.png/revision/latest/scale-to-width-down/300?cb=20140708081733"
+          ],
+          "debut": {
+            "anime": "Naruto Episode #137",
+            "appearsIn": "Anime"
+          },
+          "personal": {
+            "sex": "Male",
+            "height": {
+              "Part I": "195cm"
+            },
+            "occupation": "Leader of the Fūma clan",
+            "affiliation": "Land of Sound",
+            "clan": "Fūma  (Land of Sound)"
+          },
+          "tools": [
+            "Sword"
+          ],
+          "voiceActors": {
+            "japanese": "Masaki Aizawa",
+            "english": "Jamieson Price"
+          }
+        },
+        {
+          "id": 511,
+          "name": "Jigumo",
+          "images": [
+            "https://static.wikia.nocookie.net/naruto/images/d/d1/Jigumo.png/revision/latest/scale-to-width-down/300?cb=20150601141332"
+          ],
+          "debut": {
+            "anime": "Naruto Episode #137",
+            "appearsIn": "Anime"
+          },
+          "jutsu": [
+            "Empty Cicada Shell Technique",
+            "Wind Spider Technique"
+          ],
+          "personal": {
+            "sex": "Male",
+            "status": "Deceased",
+            "affiliation": "Otogakure",
+            "clan": "Fūma  (Land of Sound)"
+          },
+          "voiceActors": {
+            "japanese": "Kōzō Shioya",
+            "english": "Lex Lang"
+          }
+        },
+        {
+          "id": 531,
+          "name": "Kagerō",
+          "images": [
+            "https://static.wikia.nocookie.net/naruto/images/2/26/Kagero.PNG/revision/latest/scale-to-width-down/300?cb=20150601141445"
+          ],
+          "debut": {
+            "anime": "Naruto Episode #137",
+            "appearsIn": "Anime"
+          },
+          "jutsu": [
+            "Antlion Ninja Arts: Ephemeral",
+            "Chakra Threads",
+            "Earth Release: Antlion Technique",
+            "Earth Release: Underground Projection Fish Technique",
+            "Fire Release: Mist Blaze Dance Technique",
+            "Transformation Technique"
+          ],
+          "natureType": [
+            "Earth Release",
+            "Fire Release"
+          ],
+          "personal": {
+            "sex": "Female",
+            "status": "Deceased",
+            "affiliation": "Otogakure",
+            "clan": "Fūma  (Land of Sound)",
+            "titles": [
+              "カゲロウKagerō"
+            ]
+          },
+          "rank": {
+            "ninjaRank": {
+              "Part I": "Jōnin"
+            }
+          },
+          "voiceActors": {
+            "japanese": [
+              "Tadahisa Saizen   (Male)",
+              "Mioko Fujiwara  (Female)"
+            ],
+            "english": [
+              "Steven Blum   (Male)",
+              "Karen Strassman   (Female)"
+            ]
+          }
+        },
+        {
+          "id": 566,
+          "name": "Kamikiri",
+          "images": [
+            "https://static.wikia.nocookie.net/naruto/images/9/93/Kamikiri.png/revision/latest/scale-to-width-down/300?cb=20150601141231"
+          ],
+          "debut": {
+            "anime": "Naruto Episode #137",
+            "appearsIn": "Anime"
+          },
+          "personal": {
+            "sex": "Male",
+            "status": "Deceased",
+            "affiliation": "Otogakure",
+            "clan": "Fūma  (Land of Sound)"
+          },
+          "tools": [
+            "Scissor Pincers"
+          ],
+          "voiceActors": {
+            "japanese": "Bin Shimada",
+            "english": "Sam Riegel"
+          }
+        },
+        {
+          "id": 699,
+          "name": "Kotohime",
+          "images": [
+            "https://static.wikia.nocookie.net/naruto/images/b/bf/Kotohime.png/revision/latest/scale-to-width-down/300?cb=20150601174854"
+          ],
+          "debut": {
+            "anime": "Naruto Episode #139",
+            "appearsIn": "Anime"
+          },
+          "jutsu": [
+            "Hair Binding Technique"
+          ],
+          "personal": {
+            "sex": "Female",
+            "affiliation": "Otogakure",
+            "clan": "Fūma  (Land of Sound)"
+          },
+          "tools": [
+            "Poison"
+          ],
+          "voiceActors": {
+            "japanese": "Shōko Okamoto",
+            "english": "Cindy Robinson"
+          }
+        },
+        {
+          "id": 1040,
+          "name": "Sasame",
+          "images": [
+            "https://static.wikia.nocookie.net/naruto/images/a/a4/Sasame.png/revision/latest/scale-to-width-down/300?cb=20150601141133"
+          ],
+          "debut": {
+            "anime": "Naruto Episode #136",
+            "appearsIn": "Anime"
+          },
+          "family": {
+            "cousin": "Arashi"
+          },
+          "personal": {
+            "sex": "Female",
+            "height": {
+              "Part I": "138cm"
+            },
+            "affiliation": "Land of Sound",
+            "clan": "Fūma  (Land of Sound)"
+          },
+          "tools": [
+            "Makibishi",
+            "Poison"
+          ],
+          "voiceActors": {
+            "japanese": "Sanae Kobayashi",
+            "english": "Michelle Ruff"
+          }
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Hatake",
+      "characters": [
+        {
+          "id": 376,
+          "name": "Kakashi Hatake",
+          "images": [
+            "https://static.wikia.nocookie.net/naruto/images/2/27/Kakashi_Hatake.png/revision/latest/scale-to-width-down/300?cb=20170628120149",
+            "https://static.wikia.nocookie.net/naruto/images/2/25/Kakashi_Part_III.png/revision/latest/scale-to-width-down/300?cb=20190224133235"
+          ],
+          "debut": {
+            "manga": "Naruto Chapter #3",
+            "anime": "Naruto Episode #3",
+            "novel": "Naruto: Innocent Heart, Demonic Blood",
+            "movie": "Naruto the Movie: Ninja Clash in the Land of Snow",
+            "game": "Naruto: Konoha Ninpōchō",
+            "ova": "Find the Four-Leaf Red Clover!",
+            "appearsIn": "Anime, Manga, Novel, Game, Movie"
+          },
+          "family": {
+            "father": "Sakumo Hatake"
+          },
+          "jutsu": [
+            "Area Scanning Technique",
+            "Chidori",
+            "Demonic Illusion: Hell Viewing Technique",
+            "Earth Release: Double Suicide Decapitation Technique",
+            "Earth Release: Earth Wave Technique (Anime only)",
+            "Earth Release: Earth-Style Wall",
+            "Earth Release: Hiding Like a Mole Technique",
+            "Earth Release: Multiple Earth-Style Wall (Anime only)",
+            "Earth Release: Rending Drill Fang",
+            "Eight Gates",
+            "Evil Sealing Method",
+            "Eye Mind Reading (Anime only)",
+            "Fire Release: Great Fireball Technique (Anime only)",
+            "Fire Release: Water Mist (Novel only)",
+            "Flying Revolving Sword (Anime only)",
+            "Front Lotus (Anime only)",
+            "Genjutsu: Sharingan",
+            "Ground Splitting Technique",
+            "Hiding in Mist Technique (Anime only)",
+            "Ice Release: One Horned White Whale",
+            "Kamui",
+            "Kamui Lightning Cutter",
+            "Kamui Shuriken",
+            "Lightning Cutter",
+            "Lightning Release: Lightning Beast Tracking Fang",
+            "Lightning Release: Purple Electricity",
+            "Lightning Release: Shadow Clone Technique",
+            "Lightning Transmission",
+            "Multiple Shadow Clone Technique",
+            "One Thousand Years of Death",
+            "Peregrine Falcon Drop (Anime only)",
+            "Rasengan",
+            "Shadow Clone Technique",
+            "Shadow of the Dancing Leaf (Anime only)",
+            "Silent Killing",
+            "Strong Fist (Anime only)",
+            "Summoning Technique (Ninken)",
+            "Summoning: Earth Release: Tracking Fang Technique",
+            "Susanoo",
+            "Water Clone Technique",
+            "Water Release: Great Waterfall Technique",
+            "Water Release: Water Beast",
+            "Water Release: Water Bullet Technique",
+            "Water Release: Water Dragon Bullet Technique",
+            "Water Release: Water Formation Wall",
+            "Water Release: Water Shark Bullet Technique",
+            "White Light Blade"
+          ],
+          "natureType": [
+            "Lightning Release  (Affinity)",
+            "Earth Release",
+            "Water Release",
+            "Fire Release",
+            "Wind Release",
+            "Yin Release",
+            "Yang Release"
+          ],
+          "personal": {
+            "birthdate": "September 15",
+            "sex": "Male",
+            "age": {
+              "Part I": "26–27",
+              "Part II": "29–31",
+              "Academy Graduate": "5",
+              "Chunin Promotion": "6"
+            },
+            "height": {
+              "Part I": "181cm"
+            },
+            "weight": {
+              "Part I": "67.5kg"
+            },
+            "bloodType": "O",
+            "kekkeiGenkai": [
+              "Sharingan",
+              "Mangekyō Sharingan"
+            ],
+            "occupation": [
+              "Anbu Captain  (Former)",
+              "Third Division Commander of the Allied Shinobi Forces",
+              "Hokage",
+              "Genin Exams Proctor  (Anime only)"
+            ],
+            "affiliation": [
+              "Konohagakure",
+              "Root  (Anime only)",
+              "Allied Shinobi Forces"
+            ],
+            "team": [
+              "Team Minato",
+              "Team Ro  (Anime only)",
+              "Team Kakashi",
+              "Kazekage Rescue Team",
+              "Team Asuma  (Temporarily)",
+              "Team One  (Anime only)",
+              "Team 8  (Temporarily)",
+              "Eight Man Squad",
+              "Third Division"
+            ],
+            "clan": "Hatake",
+            "titles": [
+              "はたけカカシHatakeKakashi",
+              "copyNinjaKakashi(コピー忍者のカカシ,KopīNinjaNoKakashi)",
+              "kakashiOfTheSharingan(写輪眼のカカシ,SharinganNoKakashi,LiterallyMeaning:KakashiOfTheCopyWheelEye)",
+              "heroOfTheSharingan(写輪眼の英雄,SharinganNoEiyū,LiterallyMeaning:HeroOfTheCopyWheelEye)",
+              "cold-bloodedKakashi(冷血カカシ,ReiketsuKakashi)",
+              "friend-killerKakashi(仲間殺しのカカシ,NakamagoroshiNoKakashi)",
+              "sixthHokage(六代目火影,RokudaimeHokage,LiterallyMeaning:SixthFireShadow)",
+              "sukea(スケア)"
+            ]
+          },
+          "rank": {
+            "ninjaRank": {
+              "Part I": "Jōnin",
+              "Blank Period": "Kage"
+            },
+            "ninjaRegistration": "009720"
+          },
+          "tools": [
+            "Bow & Arrow (Anime only)",
+            "Chakra-Suppressing Seal",
+            "Flying Thunder God Kunai",
+            "Kubikiribōchō",
+            "Kusarigama (Anime only)",
+            "Lightning Barrel (Anime only)",
+            "Makibishi",
+            "Sword",
+            "Tantō",
+            "White Light Chakra Sabre",
+            "Wire Strings"
+          ],
+          "voiceActors": {
+            "japanese": [
+              "Kazuhiko Inoue",
+              "Mutsumi Tamura  (Child)",
+              "Kenichi Suzumura   (Sukea)"
+            ],
+            "english": [
+              "Dave Wittenberg",
+              "Xander Mobus   (Sukea)"
+            ]
+          }
+        },
+        {
+          "id": 377,
+          "name": "Sakumo Hatake",
+          "images": [
+            "https://static.wikia.nocookie.net/naruto/images/3/3f/Sakumo_Hatake.png/revision/latest/scale-to-width-down/300?cb=20150504191510"
+          ],
+          "debut": {
+            "manga": "Naruto Chapter #425",
+            "anime": "Naruto Shippūden Episode #159",
+            "novel": "Kakashi Retsuden: The Sixth Hokage and the Failure Boy  (Mentioned)",
+            "game": "Naruto Shippūden: Ultimate Ninja Blazing",
+            "appearsIn": "Anime, Manga, Novel, Game"
+          },
+          "family": {
+            "son": "Kakashi Hatake"
+          },
+          "jutsu": [
+            "White Light Blade"
+          ],
+          "personal": {
+            "birthdate": "September 3",
+            "sex": "Male",
+            "status": "Deceased",
+            "height": {
+              "Part II": "181cm"
+            },
+            "weight": {
+              "Part II": "65.7kg"
+            },
+            "bloodType": "O",
+            "affiliation": "Konohagakure",
+            "clan": "Hatake"
+          },
+          "rank": {
+            "ninjaRank": {
+              "Part II": "Jōnin"
+            }
+          },
+          "tools": [
+            "White Light Chakra Sabre"
+          ],
+          "voiceActors": {
+            "japanese": "Daichi Endō",
+            "english": "John DeMita"
+          }
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Hirasaka",
+      "characters": [
+        {
+          "id": 404,
+          "name": "Yomito Hirasaka",
+          "images": [
+            "https://static.wikia.nocookie.net/naruto/images/e/e3/Yomito_Hirasaka.png/revision/latest?cb=20120228202024"
+          ],
+          "debut": {
+            "game": "Naruto Shippūden: Kizuna Drive",
+            "appearsIn": "Game"
+          },
+          "jutsu": [
+            "Chakra Levitation Technique",
+            "Chakra Slicers",
+            "Summoning Technique (Nuiba)",
+            "Yomito's Transformation Technique"
+          ],
+          "personal": {
+            "sex": "Male",
+            "affiliation": "Yumegakure",
+            "clan": "Hirasaka"
+          },
+          "voiceActors": {
+            "japanese": "Tomoaki Maeno",
+            "english": "Keith Silverstein"
+          }
+        }
+      ]
     }
   ],
-  "AllClans": [
-    "Aburame",
-    "Akimichi",
-    "Chinoike",
-    "Hatake",
-    "Hyuga",
-    "Hozuki",
-    "Inuzuka",
-    "Izuno",
-    "Kaguya",
-    "Lee",
-    "Nara",
-    "Sarutobi",
-    "Senju",
-    "Uchiha",
-    "Uzumaki",
-    "Yamanaka",
-    "Otsutsuki",
-    "Fuma"
-  ]
+  "currentPage": 1,
+  "pageSize": 10,
+  "totalClans": 58
 }
