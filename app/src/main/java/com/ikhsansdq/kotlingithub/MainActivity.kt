@@ -1,8 +1,10 @@
 package com.ikhsansdq.kotlingithub
 
+import android.content.Intent
 import android.content.res.AssetManager
 import android.os.Bundle
 import android.view.MenuItem
+import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import android.widget.ListView
 import androidx.appcompat.app.ActionBarDrawerToggle
@@ -41,6 +43,13 @@ class MainActivity : AppCompatActivity() {
 
         parseJsonData()
         setupListView()
+
+        listView.onItemClickListener = AdapterView.OnItemClickListener { _, _, position, _ ->
+            val selectedItem = dataList[position]
+            val intent = Intent(this, DetailsActivity::class.java)
+            intent.putExtra("selectedItem", selectedItem)
+            startActivity(intent)
+        }
     }
 
     private fun setupListView() {
@@ -51,7 +60,8 @@ class MainActivity : AppCompatActivity() {
     private fun parseJsonData() {
         val assetManager: AssetManager = assets
         try {
-            val inputStream = assetManager.open("all_clans.json")
+//            val jsonUrl = "https://api.narutodb.xyz/clan?limit=58"
+            val inputStream = assetManager.open("updated_full_clan_list_data.json")
             val size = inputStream.available()
             val buffer = ByteArray(size)
             inputStream.read(buffer); inputStream.close()
