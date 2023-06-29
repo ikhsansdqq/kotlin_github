@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="12dp"
+    android:clickable="true"
+    android:focusable="true"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="4dp"
+    app:strokeWidth="0sp"
+    card_view:strokeColor="@android:color/transparent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="24dp"
+        android:paddingVertical="18dp">
+
+        <TextView
+            android:id="@+id/clan_title_placeholder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/opensans_bold"
+            android:text="@string/app_name"
+            android:textColor="@color/dark_blue"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignTop="@id/clan_title_placeholder"
+            android:layout_alignBottom="@id/clan_title_placeholder"
+            android:layout_toEndOf="@id/clan_title_placeholder"
+            android:src="@drawable/baseline_chevron_right_24"
+            android:contentDescription="@string/app_name" />
+
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>

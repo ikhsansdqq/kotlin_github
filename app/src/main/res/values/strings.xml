@@ -5,4 +5,9 @@
     <string name="nav_open">Open</string>
     <string name="nav_close">Close</string>
     <string name="naruto_database_name">Naruto Database</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="lorem_dummy">Madara Uchiha (うちはマダラ, Uchiha Madara) was the legendary leader of the Uchiha Clan. He founded Konohagakure alongside his childhood friend and rival, Hashirama Senju, with the intention of bringing about an era of peace.</string>
+    <string name="search">Search</string>
 </resources>

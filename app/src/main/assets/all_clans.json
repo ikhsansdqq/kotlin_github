@@ -1,51 +1,51 @@
 {
       "clans": [
         {
-          "name": "Aburame Clan",
+          "name": "Aburame",
           "village": "leaf village"
         },
         {
-          "name": "Akimichi Clan",
+          "name": "Akimichi",
           "village": "leaf village"
         },
         {
-          "name": "Fuuma Clan",
+          "name": "Fuuma",
           "village": "rain village"
         },
         {
-          "name": "Houzuki Clan",
+          "name": "Houzuki",
           "village": "mist village"
         },
         {
-          "name": "Hyuuga Clan",
+          "name": "Hyuuga",
           "village": "leaf village"
         },
         {
-          "name": "Inuzuka Clan",
+          "name": "Inuzuka",
           "village": "leaf village"
         },
         {
-          "name": "Kaguya Clan",
+          "name": "Kaguya",
           "village": "mist village"
         },
         {
-          "name": "Kamizuru Clan",
+          "name": "Kamizuru",
           "village": "rock village"
         },
         {
-          "name": "Kedouin Clan",
+          "name": "Kedouin",
           "village": "leaf village"
         },
         {
-          "name": "Kohaku Clan",
+          "name": "Kohaku",
           "village": "leaf village"
         },
         {
-          "name": "Kurama Clan",
+          "name": "Kurama",
           "village": "leaf village"
         },
         {
-          "name": "Nara Clan",
+          "name": "Nara",
           "village": "leaf village"
         },
         {
@@ -53,35 +53,35 @@
           "village": "sound village"
         },
         {
-          "name": "Sarutobi Clan",
+          "name": "Sarutobi",
           "village": "leaf village"
         },
         {
-          "name": "Senju Clan",
+          "name": "Senju",
           "village": "leaf village"
         },
         {
-          "name": "Shiin's Clan",
+          "name": "Shiin's",
           "village": "sound village"
         },
         {
-          "name": "Uchiha Clan",
+          "name": "Uchiha",
           "village": "leaf village"
         },
         {
-          "name": "Uzumaki Clan",
+          "name": "Uzumaki",
           "village": "whirlpool village"
         },
         {
-          "name": "Yamanaka Clan",
+          "name": "Yamanaka",
           "village": "leaf village"
         },
         {
-          "name": "Yotsuki Clan",
+          "name": "Yotsuki",
           "village": "cloud village"
         },
         {
-          "name": "Yuki Clan",
+          "name": "Yuki",
           "village": "mist village"
         }
       ]
