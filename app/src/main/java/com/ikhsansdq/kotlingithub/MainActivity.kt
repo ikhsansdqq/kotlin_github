@@ -1,30 +1,28 @@
 package com.ikhsansdq.kotlingithub
 
-import android.content.Intent
-import android.content.res.AssetManager
 import android.os.Bundle
 import android.view.MenuItem
-import android.widget.AdapterView
-import android.widget.ArrayAdapter
-import android.widget.ListView
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.drawerlayout.widget.DrawerLayout
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
+import com.ikhsansdq.kotlingithub.adapter.RVMainActivityAdapter
 import org.json.JSONException
 import org.json.JSONObject
 import java.io.IOException
-import java.nio.charset.StandardCharsets
+import java.io.InputStream
 
 class MainActivity : AppCompatActivity() {
     private lateinit var drawerLayout: DrawerLayout
     private lateinit var actionBarDrawerToggle: ActionBarDrawerToggle
-    private lateinit var dataList: ArrayList<String>
-    private lateinit var listView: ListView
+
+    private lateinit var recyclerView: RecyclerView
+    private lateinit var adapter: RVMainActivityAdapter
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
         val myToolbar = findViewById<androidx.appcompat.widget.Toolbar>(R.id.toolbar)
         myToolbar.title = ""
         setSupportActionBar(myToolbar)
@@ -32,52 +30,41 @@ class MainActivity : AppCompatActivity() {
         drawerLayout = findViewById(R.id.my_drawer_layout)
         actionBarDrawerToggle =
             ActionBarDrawerToggle(this, drawerLayout, R.string.nav_open, R.string.nav_close)
-
         drawerLayout.addDrawerListener(actionBarDrawerToggle); actionBarDrawerToggle.syncState()
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
-        listView = findViewById<ListView>(R.id.listView)
-        dataList = ArrayList()
-        listView.setHeaderDividersEnabled(false); listView.setFooterDividersEnabled(false)
+        recyclerView = findViewById(R.id.mainActivityRecyclerView)
+        recyclerView.layoutManager = LinearLayoutManager(this)
 
-        parseJsonData()
-        setupListView()
-
-        listView.onItemClickListener = AdapterView.OnItemClickListener { _, _, position, _ ->
-            val selectedItem = dataList[position]
-            val intent = Intent(this, DetailsActivity::class.java)
-            intent.putExtra("selectedItem", selectedItem)
-            startActivity(intent)
-        }
+        adapter = RVMainActivityAdapter()
+        recyclerView.adapter = adapter
+        parseJSON()
     }
 
-    private fun setupListView() {
-        val adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, dataList)
-        listView.adapter = adapter
-    }
-
-    private fun parseJsonData() {
-        val assetManager: AssetManager = assets
+    private fun parseJSON() {
         try {
-//            val jsonUrl = "https://api.narutodb.xyz/clan?limit=58"
-            val inputStream = assetManager.open("updated_full_clan_list_data.json")
-            val size = inputStream.available()
+            val inputStream: InputStream = assets.open("scheme.json")
+            val size: Int = inputStream.available()
             val buffer = ByteArray(size)
-            inputStream.read(buffer); inputStream.close()
-            val json = String(buffer, StandardCharsets.UTF_8)
+            inputStream.read(buffer)
+            inputStream.close()
 
-            val jsonObject = JSONObject(json)
-            val clansArray = jsonObject.getJSONArray("clans")
+            val jsonStringGetter = String(buffer, Charsets.UTF_8)
+            val jsonObjectGetter = JSONObject(jsonStringGetter)
+            val clansArray = jsonObjectGetter.getJSONArray("scheme")
+
+            val clanNames = mutableListOf<String>()
             for (i in 0 until clansArray.length()) {
                 val clanObject = clansArray.getJSONObject(i)
                 val name = clanObject.getString("name")
-                dataList.add(name)
+                clanNames.add(name)
             }
+            adapter.setClanNames(clanNames)
         } catch (e: IOException) {
             e.printStackTrace()
         } catch (e: JSONException) {
-            e.printStackTrace()
+            println("Something has wrong with ${e.printStackTrace()}")
         }
     }
 

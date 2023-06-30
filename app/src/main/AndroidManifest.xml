@@ -18,7 +18,7 @@
         android:theme="@style/Theme.KotlinGithub"
         tools:targetApi="31">
         <activity
-            android:name=".DetailsActivity"
+            android:name=".ClickedItemActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

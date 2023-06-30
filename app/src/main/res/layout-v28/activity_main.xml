@@ -14,8 +14,7 @@
         android:layout_height="match_parent"
         android:background="@color/white"
         android:orientation="vertical"
-        android:paddingHorizontal="16dp"
-        android:paddingVertical="24dp">
+        android:paddingHorizontal="24dp">
 
         <com.google.android.material.appbar.AppBarLayout
             android:layout_width="match_parent"
@@ -35,16 +34,17 @@
                     android:text="@string/naruto_database_name"
                     android:textColor="#1E2332"
                     android:textFontWeight="800"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    tools:targetApi="p" />
 
             </androidx.appcompat.widget.Toolbar>
 
         </com.google.android.material.appbar.AppBarLayout>
 
-        <ListView
-            android:id="@+id/listView"
+        <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:id="@+id/mainActivityRecyclerView"
+            android:layout_height="match_parent" />
 
     </LinearLayout>
 

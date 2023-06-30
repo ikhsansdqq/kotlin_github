@@ -4,10 +4,10 @@ import android.os.Bundle
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
-class DetailsActivity : AppCompatActivity() {
+class ClickedItemActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_details)
+        setContentView(R.layout.clicked_item_activity)
 
         val selectedItem = intent.getStringExtra("selectedItem")
         val textView: TextView = findViewById(R.id.myTextView)
