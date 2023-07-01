@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingHorizontal="24dp"
+    tools:context=".CharacterDetailScreen">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/detailsToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/white"
+            app:title="Madara Uchiha">
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/madara_img_placeholder" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/opensans_bold"
+        android:text="Madara Uchiha"
+        android:textColor="@color/dark_blue"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:lineSpacingExtra="5sp"
+        android:text="@string/lorem_dummy"
+        android:textColor="#646B89"
+        android:textSize="16sp" />
+
+    <ExpandableListView
+        tools:listitem="@layout/list_group"
+        android:id="@+id/expandableListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:divider="@color/semi_grey"
+        android:dividerHeight="0.5dp" />
+
+</LinearLayout>

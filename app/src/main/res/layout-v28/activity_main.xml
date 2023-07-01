@@ -41,9 +41,12 @@
 
         </com.google.android.material.appbar.AppBarLayout>
 
-        <androidx.recyclerview.widget.RecyclerView
+        <GridView
+            android:id="@+id/mainActivityGridView"
+            android:horizontalSpacing="14dp"
+            android:numColumns="2"
             android:layout_width="match_parent"
-            android:id="@+id/mainActivityRecyclerView"
+            android:verticalSpacing="14dp"
             android:layout_height="match_parent" />
 
     </LinearLayout>

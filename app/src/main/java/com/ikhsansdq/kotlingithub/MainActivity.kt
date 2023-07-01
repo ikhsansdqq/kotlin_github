@@ -1,24 +1,27 @@
 package com.ikhsansdq.kotlingithub
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.MenuItem
+import android.view.View
+import android.widget.AdapterView
+import android.widget.GridView
+import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.drawerlayout.widget.DrawerLayout
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
-import com.ikhsansdq.kotlingithub.adapter.RVMainActivityAdapter
+import com.ikhsansdq.kotlingithub.adapter.GVMainActivityAdapter
 import org.json.JSONException
 import org.json.JSONObject
 import java.io.IOException
 import java.io.InputStream
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity(), AdapterView.OnItemClickListener {
     private lateinit var drawerLayout: DrawerLayout
     private lateinit var actionBarDrawerToggle: ActionBarDrawerToggle
 
-    private lateinit var recyclerView: RecyclerView
-    private lateinit var adapter: RVMainActivityAdapter
+    private lateinit var gridView: GridView
+    private lateinit var adapter: GVMainActivityAdapter
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -34,11 +37,16 @@ class MainActivity : AppCompatActivity() {
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
-        recyclerView = findViewById(R.id.mainActivityRecyclerView)
-        recyclerView.layoutManager = LinearLayoutManager(this)
-
-        adapter = RVMainActivityAdapter()
-        recyclerView.adapter = adapter
+        gridView = findViewById(R.id.mainActivityGridView)
+        val itemClickListener = object : GVMainActivityAdapter.OnItemClickListener {
+            override fun onItemClick(item: String) {
+                val intent = Intent(this@MainActivity, ClickedItemActivity::class.java)
+                println("$item is clicked and will go to $applicationContext")
+                intent.putExtra("selectedItem", item)
+                startActivity(intent)
+            }
+        }
+        adapter = GVMainActivityAdapter(this, itemClickListener)
         parseJSON()
     }
 
@@ -61,6 +69,7 @@ class MainActivity : AppCompatActivity() {
                 clanNames.add(name)
             }
             adapter.setClanNames(clanNames)
+            gridView.adapter = adapter
         } catch (e: IOException) {
             e.printStackTrace()
         } catch (e: JSONException) {
@@ -73,4 +82,16 @@ class MainActivity : AppCompatActivity() {
             true
         } else super.onOptionsItemSelected(item)
     }
+
+    override fun onItemClick(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
+        val selectedItem = adapter.getItem(position) as String
+        try {
+            val intent = Intent(this, ClickedItemActivity::class.java)
+            intent.putExtra("selectedItem", selectedItem)
+            startActivity(intent)
+        } catch (e: IOException) {
+            e.printStackTrace()
+        }
+    }
+
 }
